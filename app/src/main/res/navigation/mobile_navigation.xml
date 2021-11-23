@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_juegos">
+
+    <fragment
+        android:id="@+id/nav_juegos"
+        android:name="com.ggomez.misjuegosapp.MisJuegosFragment"
+        android:label="@string/menu_juegos"
+        tools:layout="@layout/fragment_mis_juegos" />
+    <fragment
+        android:id="@+id/nav_categorias"
+        android:name="com.ggomez.misjuegosapp.CategoriasFragment"
+        android:label="@string/menu_categorias"
+        tools:layout="@layout/fragment_categorias" />
+    <fragment
+        android:id="@+id/nav_plataformas"
+        android:name="com.ggomez.misjuegosapp.PlataformasFragment"
+        android:label="@string/menu_plataformas"
+        tools:layout="@layout/fragment_plataformas" />
+    <fragment
+        android:id="@+id/nav_publicadores"
+        android:name="com.ggomez.misjuegosapp.PublicadoresFragment"
+        android:label="@string/menu_publicadores"
+        tools:layout="@layout/fragment_publicadores" />
+
+    <fragment
+        android:id="@+id/nav_sobre_nosotros"
+        android:name="com.ggomez.misjuegosapp.SobreNosotrosFragment"
+        android:label="@string/menu_sobre_nosotros"
+        tools:layout="@layout/fragment_sobre_nosotros" />
+</navigation>

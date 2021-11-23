@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- Primer grupo -->
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_juegos"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/menu_juegos" />
+
+        <item
+            android:id="@+id/nav_categorias"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/menu_categorias" />
+
+        <item
+            android:id="@+id/nav_plataformas"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/menu_plataformas" />
+
+        <item
+            android:id="@+id/nav_publicadores"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_publicadores" />
+    </group>
+
+    <!-- Segundo grupo -->
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_sobre_nosotros"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/menu_sobre_nosotros" />
+
+    </group>
+
+</menu>

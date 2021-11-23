@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">NavDrawerExample</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mis juegos app</string>
+    <string name="nav_header_subtitle">Juegos</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_map">Ubicación de la empresa</string>
+    <string name="action_perfil">Mi perfil</string>
+
+    <string name="menu_juegos">Mis juegos</string>
+    <string name="menu_categorias">Categorías</string>
+    <string name="menu_plataformas">Plataformas</string>
+    <string name="menu_publicadores">Publicadores</string>
+    <string name="menu_sobre_nosotros">Sobre nosotros</string>
+
+    <!-- Activities strings -->
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="hacer">¿Qué desea hacer?</string>
+    <string name="entrar_invitado">Entrar como invitado</string>
+
+    <string name="registrate">Registrate</string>
+    <string name="ingresa_datos">Ingresa tus datos</string>
+
+    <string name="rellene_datos">Rellene con sus datos</string>
+    <string name="hint_nombres">Nombres</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_nuevo_nombre">Nuevo nombre</string>
+    <string name="hint_apellidos">Apellidos</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="hint_restriccion">Restricción</string>
+    <string name="hint_anio">Año</string>
+
+    <string name="categoria">Categoría</string>
+    <string name="plataforma">Plataforma</string>
+    <string name="publicador">Publicador</string>
+    <string name="calificacion">Calificación</string>
+    <string name="mis_juegos">Mis juegos</string>
+
+    <string name="ver_mas">Ver más</string>
+
+    <string name="hint_email">E-mail</string>
+    <string name="hint_contraseña">Contraseña</string>
+
+    <string name="nueva_categoria">Nueva categoría</string>
+    <string name="crear_categoria">Crear categoría</string>
+    <string name="editar_categoria">Editar categoría</string>
+
+    <string name="nueva_plataforma">Nueva plataforma</string>
+    <string name="crear_plataforma">Crear plataforma</string>
+    <string name="editar_plataforma">Editar plataforma</string>
+
+    <string name="nuevo_publicador">Nuevo publicador</string>
+    <string name="crear_publicador">Crear publicador</string>
+    <string name="editar_publicador">Editar publicador</string>
+
+    <string name="nuevo_juego">Nuevo juego</string>
+    <string name="crear_juego">Crear juego</string>
+    <string name="editar_juego">Editar juego</string>
+    <string name="contactanos">Contáctanos</string>
+    <string name="tel_contacto">+56 912341234</string>
+    <string name="correo_contacto">empresa@empresa.cl</string>
+
+    <string name="crear">Crear</string>
+    <string name="editar">Editar</string>
+
+    <string name="info_juego">Información del juego</string>
+    <string name="descripcion_del_juego">Descripción</string>
+    <string name="inicio">Inicio</string>
+    <string name="filtrar_por">Filtrar por:</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="genero">Genero</string>
+
+    <string name="sobre_nosotros_descripcion"> Esta es una aplicación creada con el proposito de que se use para agregar tus juegos favoritos, a los cuales les puedes agregar una categoría, plataforma y un publicador o distribuidor.
+    </string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>
